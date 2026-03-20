@@ -1,0 +1,22 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.letterWrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.letter {
+  display: block;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
