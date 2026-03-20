@@ -1,6 +1,6 @@
 # Portfolio V2
 
-[🔗 Live Preview](https://your-portfolio-url.com)
+[🔗 Live Preview](https://portfolio-v2-fsx3.onrender.com)
 
 Welcome to my personal portfolio repository! This project showcases my work, skills, and experience through a modern, responsive, and dynamic web application built with**React**, **TypeScript**, and **Vite**.
 

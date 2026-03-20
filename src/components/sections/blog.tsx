@@ -15,7 +15,7 @@ export default function Blogs({
   isNeed,
 }: {
   data: Record<string, IBlogData>;
-  isNeed: boolean;
+  isNeed?: boolean;
 }) {
   const navigate = useNavigate();
   if (Object.keys(data).length === 0)
