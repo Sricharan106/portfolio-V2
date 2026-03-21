@@ -38,8 +38,8 @@ export default function Projects({
           Passionate about building high-performance and scalable web
           applications. I thrive on solving complex problems, optimizing
           performance, and creating intuitive user experiences. My expertise
-          lies in Next.js, TypeScript, and Cloud technologies, with a strong
-          focus on delivering quality solutions.
+          lies in Express.js, Node.js, React.js, TypeScript, and Cloud
+          technologies, with a strong focus on delivering quality solutions.
         </p>
       )}
       <ul className="flex flex-col gap-12 mt-4 font-normal text-primary/90 text-base">
