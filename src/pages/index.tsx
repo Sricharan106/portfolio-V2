@@ -19,7 +19,7 @@ export default function Page() {
         y={-1}
         className="[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]"
       />
-      <NavBar />
+      <NavBar isNeed={true} />
       <div className="flex flex-col items-center gap-12 p-8 w-">
         <Hero data={DATA.HEADER} />
 

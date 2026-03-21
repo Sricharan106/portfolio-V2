@@ -5,8 +5,9 @@ import ThemeToggle from "../navbar/theme-toggler";
 import { motion } from "motion/react";
 import { useState, useEffect } from "react";
 
-export default function NavBar() {
+export default function NavBar({ isNeed }: { isNeed?: boolean }) {
   const navigate = useNavigate();
+  const prefix = isNeed ? "#" : "/";
   const [isDark, setIsDark] = useState(
     document.documentElement.classList.contains("dark"),
   );
@@ -46,15 +47,24 @@ export default function NavBar() {
           </motion.span>
         </span>
       </ButtonAnimation>
-
       <nav className="flex text-white gap-2">
-        <ul className="flex relative top-0.5 text-black dark:text-white items-center sm:gap-0">
-          {["experience", "projects", "blog"].map((link, index) => (
-            <li key={index} className="pl-2">
-              <AnimatedText href={`#${link}`} text={link} />
-            </li>
-          ))}
-        </ul>
+        {isNeed ? (
+          <ul className="flex relative top-0.5 text-black dark:text-white items-center sm:gap-0">
+            {["experience", "projects", "blog"].map((link, index) => (
+              <li key={index} className="pl-2">
+                <AnimatedText href={`${prefix}${link}`} text={link} />
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <ul className="flex relative top-0.5 text-black dark:text-white items-center sm:gap-0">
+            {["experience", "projects", "blog"].map((link, index) => (
+              <li key={index} className="pl-2">
+                <AnimatedText href={`/#${link}`} text={link} />
+              </li>
+            ))}
+          </ul>
+        )}
 
         <ThemeToggle></ThemeToggle>
       </nav>

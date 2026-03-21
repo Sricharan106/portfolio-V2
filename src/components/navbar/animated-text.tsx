@@ -10,8 +10,14 @@ export default function AnimatedText({ text, href }: AnimationTextProps) {
   const navigate = useNavigate();
   const handleClick = () => {
     if (href?.startsWith("#")) {
-      const id = href.slice(1); // strips the "#"
+      const id = href.slice(1);
       document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    } else if (href?.includes("/#")) {
+      const id = href.split("/#")[1];
+      navigate("/");
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
     } else {
       navigate(href ?? "/");
     }
