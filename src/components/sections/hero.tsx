@@ -27,7 +27,7 @@ export default function Hero({ data }: { data: Record<string, string> }) {
 
         <div className="flex items-center gap-2 text-sm">
           <ButtonAnimation
-            className="inline-flex justify-center items-center px-4 py-2 h-9 rounded-md shadow-sm font-medium text-sm whitespace-nowrap transition-colors disabled:opacity-50 disabled:pointer-events-none focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring bg-black text-white hover:bg-black dark:bg-white dark:text-black dark:hover:bg-[#e1e1e1] border-none shadow-none hover:bg-[#2f2f31]"
+            className="cursor-target inline-flex justify-center items-center px-4 py-2 h-9 rounded-md shadow-sm font-medium text-sm whitespace-nowrap transition-colors disabled:opacity-50 disabled:pointer-events-none focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring bg-black text-white hover:bg-black dark:bg-white dark:text-black dark:hover:bg-[#e1e1e1] border-none shadow-none hover:bg-[#2f2f31]"
             onClick={() => handleChange(data.RESUME)}
           >
             Resume
@@ -35,19 +35,19 @@ export default function Hero({ data }: { data: Record<string, string> }) {
           <div className="flex gap-2 ">
             <ButtonAnimation
               onClick={() => handleChange(data.EMAIL)}
-              className="dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] shadow-none  border-none"
+              className="cursor-target dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] shadow-none  border-none"
             >
               <Mail />
             </ButtonAnimation>
             <ButtonAnimation
               onClick={() => handleChange(data.GITHUB)}
-              className="dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] shadow-none  border-none"
+              className="cursor-target dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] shadow-none  border-none"
             >
               <Github />
             </ButtonAnimation>
             <ButtonAnimation
               onClick={() => handleChange(data.LINKEDIN)}
-              className="dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] shadow-none  border-none"
+              className="cursor-target dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] shadow-none  border-none"
             >
               <Linkedin />
             </ButtonAnimation>

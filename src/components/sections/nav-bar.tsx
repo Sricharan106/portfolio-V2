@@ -23,7 +23,7 @@ export default function NavBar() {
   return (
     <header className="flex justify-between items-center bg-transparent">
       <ButtonAnimation
-        className="bg-transparent border-none shadow-none ml-4 dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b]"
+        className="cursor-target bg-transparent border-none shadow-none ml-4 dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b]"
         onClick={() => navigate("/")}
       >
         <span className="font-bold relative -top-1.5 text-xl tracking-tighter">

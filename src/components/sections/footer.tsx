@@ -14,13 +14,12 @@ export default function Footer() {
         Parsi Sricharan.{new Date().getFullYear()}
       </p>
       <button
-        className="flex items-center gap-2 w-fit text-[#71717a] dark:text-[#a1a1aa] text-base cursor-pointer"
+        className="cursor-target flex items-center gap-2 w-fit text-[#71717a] dark:text-[#a1a1aa] text-base cursor-pointer"
         onClick={scrollToTop}
       >
         Elevate to the top
         <ArrowUp size={20} />
       </button>
-      
     </div>
   );
 }

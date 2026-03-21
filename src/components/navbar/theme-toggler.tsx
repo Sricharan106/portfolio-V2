@@ -11,7 +11,7 @@ interface RippleProps {
 }
 
 export default function ThemeToggle() {
-  const [isDark, setIsDark] = useState<boolean>(false);
+  const [isDark, setIsDark] = useState<boolean>(true);
   const [ripple, setRipple] = useState<RippleProps>({
     x: 0,
     y: 0,
@@ -58,7 +58,7 @@ export default function ThemeToggle() {
         ></motion.div>
       )}
       <ButtonAnimation
-        className="bg-transparent theme-btn text-black dark:text-white shadow-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] rounded-[50%] w-2"
+        className="cursor-target bg-transparent theme-btn text-black dark:text-white shadow-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] rounded-[50%] w-2"
         onClick={toggleTheme}
         style={{ fontSize: "25px" }}
       >

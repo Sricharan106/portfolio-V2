@@ -22,14 +22,14 @@ export default function Contact({ data }: { data: Record<string, string> }) {
         <div className="flex flex-col gap-2">
           <div className="flex sm:flex-row flex-col justify-center items-center gap-4">
             <button
-              className="inline-flex justify-center items-center px-4 py-2 h-9 rounded-md font-medium text-sm whitespace-nowrap transition-colors disabled:opacity-50 disabled:pointer-events-none focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring bg-black text-white hover:bg-[#2f2f31] dark:bg-white dark:text-black dark:hover:bg-[#e1e1e1]"
+              className="cursor-target inline-flex justify-center items-center px-4 py-2 h-9 rounded-md font-medium text-sm whitespace-nowrap transition-colors disabled:opacity-50 disabled:pointer-events-none focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring bg-black text-white hover:bg-[#2f2f31] dark:bg-white dark:text-black dark:hover:bg-[#e1e1e1]"
               onClick={() => handleChange(data.EMAIL)}
             >
               <Mail className="mr-2 w-4 h-4" />
               Get in touch
             </button>
             <button
-              className="inline-flex justify-center items-center hover:bg-primary/10 disabled:opacity-50 shadow-sm px-4 border border-primary rounded-md focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring h-9 font-medium text-primary text-sm whitespace-nowrap transition-colors cursor-target disabled:pointer-events-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] "
+              className="cursor-target inline-flex justify-center items-center hover:bg-primary/10 disabled:opacity-50 shadow-sm px-4 border border-primary rounded-md focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring h-9 font-medium text-primary text-sm whitespace-nowrap transition-colors cursor-target disabled:pointer-events-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] "
               onClick={() => handleChange(data.RESUME)}
             >
               <FileText className="mr-2 w-4 h-4" />
@@ -39,19 +39,19 @@ export default function Contact({ data }: { data: Record<string, string> }) {
           <div className="flex justify-center items-center">
             <ButtonAnimation
               onClick={() => handleChange(data.GITHUB)}
-              className="shadow-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] "
+              className="cursor-target shadow-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] "
             >
               <Github />
             </ButtonAnimation>
             <ButtonAnimation
               onClick={() => handleChange(data.LINKEDIN)}
-              className="shadow-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] "
+              className="cursor-target shadow-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] "
             >
               <Linkedin />
             </ButtonAnimation>
             <ButtonAnimation
               onClick={() => handleChange(data.EMAIL)}
-              className="shadow-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] "
+              className="cursor-target shadow-none dark:hover:bg-[#ffffff3b] hover:bg-[#0000003b] "
             >
               <Mail />
             </ButtonAnimation>
