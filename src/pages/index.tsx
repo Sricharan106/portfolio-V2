@@ -8,6 +8,7 @@ import Skills from "../components/sections/skills";
 import Contact from "../components/sections/contact";
 import Footer from "../components/sections/footer";
 import GridPattern from "../components/ui/grid-pattern";
+import Dsa from "../components/sections/dsa";
 
 export default function Page() {
   return (
@@ -28,6 +29,7 @@ export default function Page() {
         <Projects data={DATA.PROJECTS} isNeed={true} />
         <Blogs data={DATA.BLOGS} isNeed={true}></Blogs>
         <Skills data={DATA.SKILLS}></Skills>
+        <Dsa data={DATA.DSA}></Dsa>
         <Contact data={DATA.HEADER} />
         <Footer />
       </div>

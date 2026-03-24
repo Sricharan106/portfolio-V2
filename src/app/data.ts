@@ -23,13 +23,14 @@ export const DATA = {
     AGE: "17",
     PRONOUN: "he/him",
     HEADLINE:
-      "Passionate about building high-performance and scalable web applications.",
+      "Full Stack Developer focused on building scalable systems and solving complex problems using Data Structures & Algorithms.",
     RESUME: "none",
     EMAIL: "mailto:parsisricharan106@gmail.com",
     GITHUB: "https://github.com/Sricharan106",
     LINKEDIN: "https://www.linkedin.com/in/sricharan106/",
+    LEETCODE: "https://leetcode.com/u/Sricharan106/",
     INTRO:
-      "Hey! I'm a full-stack developer who loves building efficient, scalable, and intuitive applications. I thrive on solving complex problems, optimizing performance, and creating seamless user experiences.",
+      "Hey! I'm a full-stack developer who loves building efficient, scalable, and intuitive applications. Alongside development, I actively practice Data Structures & Algorithms to strengthen problem-solving skills and write optimized, production-level code.",
     EXPERTISE:
       "My expertise lies in express.js, TypeScript, Node.js, and I enjoy working across the stack to bring ideas to life.",
   },
@@ -261,6 +262,20 @@ export const DATA = {
       "CS50x - Harvard",
       "CS50P - Harvard",
       "Sigma 8.0 - MERN (Apna Collage)",
+    ],
+  },
+  DSA: {
+    PLATFORM: "https://leetcode.com/u/Sricharan106/",
+    TOPICS: [
+      "Arrays",
+      "Linked Lists",
+      "Stacks",
+      // "Queues",
+      // "Trees",
+      // "Graphs",
+      // "Dynamic Programming",
+      "Recursion & Backtracking",
+      // "Greedy Algorithms",
     ],
   },
 };

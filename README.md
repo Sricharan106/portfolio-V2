@@ -24,41 +24,60 @@ Welcome to my personal portfolio repository! This project showcases my work, ski
 ## 🗂️ Project Structure
 
 ```
-src/
-├── app/
-│   └── data.ts               # Centralised content/data (experience, projects, skills, etc.)
-├── assets/                   # Static assets (SVGs, images)
-├── components/
-│   ├── navbar/
-│   │   ├── animated-text.tsx     # Typewriter / animated heading
-│   │   ├── AnimatedText.css
-│   │   ├── moving-element.tsx    # Floating / parallax element
-│   │   └── theme-toggler.tsx     # Dark ↔ Light mode switch
-│   ├── sections/
-│   │   ├── hero.tsx
-│   │   ├── nav-bar.tsx
-│   │   ├── experience.tsx
-│   │   ├── skills.tsx
-│   │   ├── projects.tsx
-│   │   ├── blog.tsx
-│   │   ├── contact.tsx
-│   │   └── footer.tsx
-│   └── ui/
-│       ├── button.tsx
-│       ├── customCursor.tsx      # Custom pointer cursor
-│       ├── target-cursor.tsx     # Crosshair cursor variant
-│       ├── grid-pattern.tsx      # Decorative background grid
-│       └── use-mobile.tsx        # Responsive breakpoint hook
-├── lib/
-│   └── utils.ts              # Shared utility functions
-├── pages/
-│   ├── index.tsx             # Home / landing page
-│   ├── projects.tsx          # All projects page
-│   └── blog.tsx              # All blog posts page
-├── App.tsx
-├── App.css
-├── index.css
-└── main.tsx
+└── portfolio-V2
+    └── public
+        ├── favicon-32x32.png
+    └── src
+        ├── app
+        │   ├── data.ts                # Centralised content/data (experience, projects, skills, etc.)
+        │   ├── favicon.ico
+        ├── assets                     # Static assets (SVGs, images)
+        │   ├── react.svg
+        ├── components
+        │   ├── navbar
+        │   │   ├── animated-text.tsx  # Typewriter / animated heading
+        │   │   ├── AnimatedText.css
+        │   │   ├── moving-element.tsx # Floating Button element
+        │   │   ├── theme-toggler.tsx  # Dark <-> Light mode switch
+        │   ├── sections
+        │   │   ├── blog.tsx
+        │   │   ├── contact.tsx
+        │   │   ├── dsa.tsx
+        │   │   ├── experience.tsx
+        │   │   ├── footer.tsx
+        │   │   ├── hero.tsx
+        │   │   ├── nav-bar.tsx
+        │   │   ├── projects.tsx
+        │   │   ├── skills.tsx
+        │   ├── ui
+        │   │   └── button.tsx
+        │   │   └── customCursor.tsx    # Custom pointer cursor
+        │   │   └── grid-pattern.tsx    # Crosshair cursor variant
+        │   │   └── target-cursor.tsx   # Decorative background grid
+        │   │   └── use-mobile.tsx      # Responsive breakpoint hook
+        ├── lib
+        │   ├── utils.ts                # Shared utility functions
+        ├── pages
+        │   ├── blog.tsx                # All projects page
+        │   ├── index.tsx               # Home / landing page
+        │   ├── projects.tsx            # All projects page
+        ├── App.css
+        ├── App.tsx
+        ├── index.css
+        ├── main.tsx
+    └── .gitignore
+    └── .prettierignore
+    └── Directory-Tree
+    └── eslint.config.js
+    └── index.html
+    └── LICENSE
+    └── package-lock.json
+    └── package.json
+    └── README.md
+    └── tsconfig.app.json
+    └── tsconfig.json
+    └── tsconfig.node.json
+    └── vite.config.ts
 ```
 
 ---

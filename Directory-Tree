@@ -1,5 +1,6 @@
 └── portfolio-V2
-    └── node_modules
+    └── public
+        ├── favicon-32x32.png
     └── src
         ├── app
         │   ├── data.ts
@@ -15,6 +16,7 @@
         │   ├── sections
         │   │   ├── blog.tsx
         │   │   ├── contact.tsx
+        │   │   ├── dsa.tsx
         │   │   ├── experience.tsx
         │   │   ├── footer.tsx
         │   │   ├── hero.tsx
@@ -49,4 +51,4 @@
     └── tsconfig.app.json
     └── tsconfig.json
     └── tsconfig.node.json
-    └── vite.config.t
+    └── vite.config.ts
