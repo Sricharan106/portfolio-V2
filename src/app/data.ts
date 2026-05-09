@@ -24,7 +24,7 @@ export const DATA = {
     PRONOUN: "he/him",
     HEADLINE:
       "Full Stack Developer focused on building scalable systems and solving complex problems using Data Structures & Algorithms.",
-    RESUME: "none",
+    RESUME: "https://drive.google.com/file/d/18yMgdsVQsoaZLen5SS_jsGPxOqCPLrt3/view",
     EMAIL: "mailto:parsisricharan106@gmail.com",
     GITHUB: "https://github.com/Sricharan106",
     LINKEDIN: "https://www.linkedin.com/in/sricharan106/",
