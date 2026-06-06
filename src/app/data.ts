@@ -35,51 +35,59 @@ export const DATA = {
       "My expertise lies in express.js, TypeScript, Node.js, and I enjoy working across the stack to bring ideas to life.",
   },
 
-  EXPERIENCE: {
-    // Example
-    // Suraasa: {
-    //   WEBSITE: "https://www.suraasa.com/",
-    //   POSITION: "SDE - 1 Backend",
-    //   LOCATION: "Hybrid",
-    //   DURATION: "Oct, 2025 - Present",
-    //   DESCRIPTION: [
-    //     "Developed and maintained backend services and APIs to support product features and integrations.",
-    //     "Worked on reliability, security, and performance improvements across services, including caching and monitoring.",
-    //     "Collaborated with frontend, platform, and DevOps teams to design APIs, event-driven workflows, and developer-facing documentation.",
-    //   ],
-    //   TECH_STACK: [
-    //     "TypeScript",
-    //     "Node.js",
-    //     "Python",
-    //     "Django",
-    //     "AdonisJS",
-    //     "PostgreSQL",
-    //     "MongoDB",
-    //     "Redis",
-    //     "Git & GitHub",
-    //   ],
-    // },
+EXPERIENCE: {
+  UptoSkill: {
+    WEBSITE: "https://uptoskills.com/",
+    POSITION: "Software Developer Intern",
+    LOCATION: "Remote",
+    DURATION: "May, 2026 - Present",
+    DESCRIPTION: [
+      "Developed and maintained full-stack web applications using modern frontend and backend technologies.",
+      "Built responsive and user-friendly interfaces with React.js and JavaScript, ensuring optimal performance across devices.",
+      "Designed and integrated RESTful APIs to enable seamless communication between frontend and backend services.",
+      "Worked with SQL and NoSQL databases for data storage, retrieval, and management.",
+    ],
+    TECH_STACK: [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "RESTful APIs",
+      "PostgreSQL",
+      "jwt",
+      "Git",
+      "GitHub",
+    ],
   },
+  OpenSource: {
+  WEBSITE: "https://github.com/search?q=is%3Apr+author%3ASricharan106&type=pullrequests",
+  POSITION: "Open Source Contributor",
+  LOCATION: "Remote",
+  DURATION: "May, 2026 - Present",
+  DESCRIPTION: [
+    "Contributed to multiple open-source projects through GirlScript Summer of Code (GSSoC) 2026, successfully merging feature implementations, bug fixes, performance improvements, and accessibility enhancements.",
+    "Implemented multi-tenant OAuth2 authentication pipelines, encrypted credential storage, and multi-provider AI integrations supporting Gemini, OpenAI, and Perplexity.",
+    "Developed new product features, data-cleaning primitives, theme customization systems, and user interface improvements across React-based applications.",
+    "Improved application performance, accessibility, testing coverage, and developer experience by resolving real-world issues in production codebases.",
+    "Collaborated with project maintainers through GitHub issues, pull requests, code reviews, and technical discussions.",
+    "Worked with large-scale codebases and followed open-source best practices including documentation, security, refactoring, and testing."
+  ],
+  TECH_STACK: [
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Node.js",
+    "Python",
+    "OAuth2",
+    "REST APIs",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "AI Integrations"
+  ],
+},
+},
   PROJECTS: {
-    // Example
-    // "VIPS-TC": {
-    //   LIVE_PREVIEW: "https://vips.edu",
-    //   DESCRIPTION: [
-    //     "Contributed to the development and maintenance of the main VIPS-TC website.",
-    //     "Implemented various front-end features using modern React and Material UI libraries.",
-    //     "Ensured responsive design and cross-browser compatibility for a seamless user experience.",
-    //     "Collaborated with the team to enhance website performance and accessibility.",
-    //   ],
-    //   TECH_STACK: [
-    //     "React.js",
-    //     "Material UI",
-    //     "Axios",
-    //     "Firebase",
-    //     "Styled Components",
-    //     "Razorpay",
-    //     "XLSX",
-    //   ],
-    // },
     "Zoom-MERN-Clone": {
       LIVE_PREVIEW: "https://zoom-mern-clone-1.onrender.com",
       DESCRIPTION: [
