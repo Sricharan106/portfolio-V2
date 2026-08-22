@@ -24,7 +24,8 @@ export const DATA = {
     PRONOUN: "he/him",
     HEADLINE:
       "Full Stack Developer focused on building scalable systems and solving complex problems using Data Structures & Algorithms.",
-    RESUME: "https://drive.google.com/file/d/18yMgdsVQsoaZLen5SS_jsGPxOqCPLrt3/view",
+    RESUME:
+      "https://drive.google.com/file/d/18yMgdsVQsoaZLen5SS_jsGPxOqCPLrt3/view",
     EMAIL: "mailto:parsisricharan106@gmail.com",
     GITHUB: "https://github.com/Sricharan106",
     LINKEDIN: "https://www.linkedin.com/in/sricharan106/",
@@ -34,59 +35,98 @@ export const DATA = {
     EXPERTISE:
       "My expertise lies in express.js, TypeScript, Node.js, and I enjoy working across the stack to bring ideas to life.",
   },
+  EXPERIENCE: {
+    UptoSkill: {
+      WEBSITE: "https://uptoskills.com/",
+      COMPANY: "UptoSkills",
+      LOCATION: "Remote",
+      DURATION: "May, 2026 - Aug, 2026",
 
-EXPERIENCE: {
-  UptoSkill: {
-    WEBSITE: "https://uptoskills.com/",
-    POSITION: "Software Developer Intern",
-    LOCATION: "Remote",
-    DURATION: "May, 2026 - Present",
-    DESCRIPTION: [
-      "Developed and maintained full-stack web applications using modern frontend and backend technologies.",
-      "Built responsive and user-friendly interfaces with React.js and JavaScript, ensuring optimal performance across devices.",
-      "Designed and integrated RESTful APIs to enable seamless communication between frontend and backend services.",
-      "Worked with SQL and NoSQL databases for data storage, retrieval, and management.",
-    ],
-    TECH_STACK: [
-      "JavaScript",
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "RESTful APIs",
-      "PostgreSQL",
-      "jwt",
-      "Git",
-      "GitHub",
-    ],
+      ROLES: [
+        {
+          POSITION: "Team Captain / Team Lead Intern",
+          DURATION: "June, 2026 - Aug, 2026",
+          DESCRIPTION: [
+            "Promoted to Team Captain after the first month, taking responsibility for coordinating and guiding a team of interns while continuing to contribute as a full-stack developer.",
+            "Assigned and tracked development tasks, coordinated team progress, and helped ensure timely delivery of project milestones.",
+            "Reviewed team members' work, provided technical guidance, and helped troubleshoot development issues.",
+            "Collaborated with mentors and team members to plan, develop, and improve full-stack web applications.",
+            "Continued hands-on development across the frontend and backend using React.js, Node.js, Express.js, and RESTful APIs.",
+          ],
+          TECH_STACK: [
+            "JavaScript",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "RESTful APIs",
+            "PostgreSQL",
+            "JWT",
+            "Git",
+            "GitHub",
+          ],
+        },
+
+        {
+          POSITION: "Full Stack Developer Intern",
+          DURATION: "May, 2026 - June, 2026",
+          DESCRIPTION: [
+            "Developed and maintained full-stack web applications using modern frontend and backend technologies.",
+            "Built responsive and user-friendly interfaces using React.js and JavaScript.",
+            "Designed and integrated RESTful APIs for seamless frontend-backend communication.",
+            "Worked with SQL and NoSQL databases for data storage, retrieval, and management.",
+            "Collaborated with the development team to implement features, fix bugs, and improve application performance.",
+          ],
+          TECH_STACK: [
+            "JavaScript",
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "RESTful APIs",
+            "PostgreSQL",
+            "JWT",
+            "Git",
+            "GitHub",
+          ],
+        },
+      ],
+    },
+
+    OpenSource: {
+      WEBSITE:
+        "https://github.com/search?q=is%3Apr+author%3ASricharan106&type=pullrequests",
+      COMPANY: "GirlScript Summer of Code",
+      LOCATION: "Remote",
+      DURATION: "May, 2026 - Present",
+
+      ROLES: [
+        {
+          POSITION: "Open Source Contributor",
+          DURATION: "May, 2026 - Present",
+          DESCRIPTION: [
+            "Contributed to multiple open-source projects through GirlScript Summer of Code (GSSoC) 2026, successfully merging feature implementations, bug fixes, performance improvements, and accessibility enhancements.",
+            "Implemented multi-tenant OAuth2 authentication pipelines, encrypted credential storage, and multi-provider AI integrations supporting Gemini, OpenAI, and Perplexity.",
+            "Developed new product features, data-cleaning primitives, theme customization systems, and user interface improvements across React-based applications.",
+            "Improved application performance, accessibility, testing coverage, and developer experience by resolving real-world issues in production codebases.",
+            "Collaborated with project maintainers through GitHub issues, pull requests, code reviews, and technical discussions.",
+            "Worked with large-scale codebases and followed open-source best practices including documentation, security, refactoring, and testing.",
+          ],
+          TECH_STACK: [
+            "JavaScript",
+            "TypeScript",
+            "React.js",
+            "Node.js",
+            "Python",
+            "OAuth2",
+            "REST APIs",
+            "MongoDB",
+            "Git",
+            "GitHub",
+            "AI Integrations",
+          ],
+        },
+      ],
+    },
   },
-  OpenSource: {
-  WEBSITE: "https://github.com/search?q=is%3Apr+author%3ASricharan106&type=pullrequests",
-  POSITION: "Open Source Contributor",
-  LOCATION: "Remote",
-  DURATION: "May, 2026 - Present",
-  DESCRIPTION: [
-    "Contributed to multiple open-source projects through GirlScript Summer of Code (GSSoC) 2026, successfully merging feature implementations, bug fixes, performance improvements, and accessibility enhancements.",
-    "Implemented multi-tenant OAuth2 authentication pipelines, encrypted credential storage, and multi-provider AI integrations supporting Gemini, OpenAI, and Perplexity.",
-    "Developed new product features, data-cleaning primitives, theme customization systems, and user interface improvements across React-based applications.",
-    "Improved application performance, accessibility, testing coverage, and developer experience by resolving real-world issues in production codebases.",
-    "Collaborated with project maintainers through GitHub issues, pull requests, code reviews, and technical discussions.",
-    "Worked with large-scale codebases and followed open-source best practices including documentation, security, refactoring, and testing."
-  ],
-  TECH_STACK: [
-    "JavaScript",
-    "TypeScript",
-    "React.js",
-    "Node.js",
-    "Python",
-    "OAuth2",
-    "REST APIs",
-    "MongoDB",
-    "Git",
-    "GitHub",
-    "AI Integrations"
-  ],
-},
-},
   PROJECTS: {
     "Zoom-MERN-Clone": {
       LIVE_PREVIEW: "https://zoom-mern-clone-1.onrender.com",
