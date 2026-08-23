@@ -8,7 +8,7 @@ export default function Contact({ data }: { data: Record<string, string> }) {
   };
 
   return (
-    <section className="w-full">
+    <section className="w-full border-t border-gray-800 pt-4 dark:border-gray-500">
       <div className="space-y-4 text-center">
         <div className="space-y-4">
           <h2 className="font-bold text-3xl">Let&apos;s work together.</h2>

@@ -22,7 +22,10 @@ export default function Projects({
   if (Object.keys(data).length === 0)
     return (
       <>
-        <div id="projects" className="w-full">
+        <div
+          id="projects"
+          className="w-full border-t border-gray-800 pt-4 dark:border-gray-500"
+        >
           <h2 className="font-medium text-primary/90 text-base">projects.</h2>
           <h2 className="text-center">Working on it</h2>
         </div>
@@ -31,7 +34,9 @@ export default function Projects({
 
   return (
     <div id="projects" className="w-full">
-      <h2 className="font-medium text-primary/90 text-base">projects.</h2>
+      <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl pb-2 border-t border-gray-800 pt-4 dark:border-gray-500">
+        Projects.
+      </h2>
       {isNeed ? (
         " "
       ) : (

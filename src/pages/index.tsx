@@ -4,6 +4,7 @@ import { DATA } from "../app/data";
 import Experience from "../components/sections/experience";
 import Projects from "../components/sections/projects";
 import Blogs from "../components/sections/blog";
+import OpenSource from "../components/sections/opensource";
 import Skills from "../components/sections/skills";
 import Contact from "../components/sections/contact";
 import Footer from "../components/sections/footer";
@@ -27,7 +28,8 @@ export default function Page() {
         <Experience data={DATA.EXPERIENCE} />
 
         <Projects data={DATA.PROJECTS} isNeed={true} />
-        <Blogs data={DATA.BLOGS} isNeed={true}></Blogs>
+        {/*<Blogs data={DATA.BLOGS} isNeed={true}></Blogs>*/}
+        <OpenSource></OpenSource>
         <Skills data={DATA.SKILLS}></Skills>
         <Dsa data={DATA.DSA}></Dsa>
         <Contact data={DATA.HEADER} />

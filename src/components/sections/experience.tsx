@@ -18,8 +18,13 @@ export default function Experience({
   if (Object.keys(data).length === 0) return null;
 
   return (
-    <div id="experience" className="w-full ">
-      <h2 className="font-medium text-primary/90 text-base">experience.</h2>
+    <div
+      id="experience"
+      className="w-full border-t border-gray-800 pt-4 dark:border-gray-500"
+    >
+      <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl pb-1">
+        Experience.
+      </h2>
 
       <ul className="flex flex-col gap-12 mt-4 font-normal text-primary/90 text-base">
         {Object.entries(data).map(([key, value]) => (

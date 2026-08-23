@@ -1,8 +1,11 @@
 export default function Skills({ data }: { data: Record<string, string[]> }) {
   return (
-    <div id="skills" className="w-full">
-      <h2 className="font-medium text-primary/90 text-base">
-        technical skills.
+    <div
+      id="skills"
+      className="w-full border-t border-gray-800 pt-4 dark:border-gray-500"
+    >
+      <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+        Technical skills.
       </h2>
 
       <ul className="flex flex-col gap-2 mt-4 font-normal text-primary/90 text-base">

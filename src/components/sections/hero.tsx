@@ -71,8 +71,8 @@ export default function Hero({ data }: { data: Record<string, string> }) {
         </div>
       </div>
 
-      <h2 className="mt-6 font-semibold dark:text-[#e1e1e1] text-[#2f2f31] text-base">
-        about me.
+      <h2 className="text-3xl mt-6 font-semibold tracking-tight sm:text-4xl pt-4 border-t border-gray-800 dark:border-gray-500">
+        About me.
       </h2>
       <p className="flex flex-col gap-2 mt-4 font-normal text-muted-foreground text-base text-justify text-[#71717a] dark:text-[#a1a1aa]">
         <span>
