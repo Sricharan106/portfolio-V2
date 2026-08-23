@@ -50,7 +50,7 @@ export default function NavBar({ isNeed }: { isNeed?: boolean }) {
       <nav className="flex text-white gap-2">
         {isNeed ? (
           <ul className="flex relative top-0.5 text-black dark:text-white items-center sm:gap-0">
-            {["experience", "projects", "blog"].map((link, index) => (
+            {["experience", "projects", "opensource"].map((link, index) => (
               <li key={index} className="pl-2">
                 <AnimatedText href={`${prefix}${link}`} text={link} />
               </li>
@@ -58,7 +58,7 @@ export default function NavBar({ isNeed }: { isNeed?: boolean }) {
           </ul>
         ) : (
           <ul className="flex relative top-0.5 text-black dark:text-white items-center sm:gap-0">
-            {["experience", "projects", "blog"].map((link, index) => (
+            {["experience", "projects", "opensource"].map((link, index) => (
               <li key={index} className="pl-2">
                 <AnimatedText href={`/#${link}`} text={link} />
               </li>

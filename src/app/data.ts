@@ -36,94 +36,73 @@ export const DATA = {
       "My expertise lies in express.js, TypeScript, Node.js, and I enjoy working across the stack to bring ideas to life.",
   },
   EXPERIENCE: {
-    UptoSkill: {
+    UptoSkillsTeamLead: {
       WEBSITE: "https://uptoskills.com/",
       COMPANY: "UptoSkills",
       LOCATION: "Remote",
-      DURATION: "May, 2026 - Aug, 2026",
-
-      ROLES: [
-        {
-          POSITION: "Team Captain / Team Lead Intern",
-          DURATION: "June, 2026 - Aug, 2026",
-          DESCRIPTION: [
-            "Promoted to Team Captain after the first month, taking responsibility for coordinating and guiding a team of interns while continuing to contribute as a full-stack developer.",
-            "Assigned and tracked development tasks, coordinated team progress, and helped ensure timely delivery of project milestones.",
-            "Reviewed team members' work, provided technical guidance, and helped troubleshoot development issues.",
-            "Collaborated with mentors and team members to plan, develop, and improve full-stack web applications.",
-            "Continued hands-on development across the frontend and backend using React.js, Node.js, Express.js, and RESTful APIs.",
-          ],
-          TECH_STACK: [
-            "JavaScript",
-            "React.js",
-            "Node.js",
-            "Express.js",
-            "RESTful APIs",
-            "PostgreSQL",
-            "JWT",
-            "Git",
-            "GitHub",
-          ],
-        },
-
-        {
-          POSITION: "Full Stack Developer Intern",
-          DURATION: "May, 2026 - June, 2026",
-          DESCRIPTION: [
-            "Developed and maintained full-stack web applications using modern frontend and backend technologies.",
-            "Built responsive and user-friendly interfaces using React.js and JavaScript.",
-            "Designed and integrated RESTful APIs for seamless frontend-backend communication.",
-            "Worked with SQL and NoSQL databases for data storage, retrieval, and management.",
-            "Collaborated with the development team to implement features, fix bugs, and improve application performance.",
-          ],
-          TECH_STACK: [
-            "JavaScript",
-            "React.js",
-            "Node.js",
-            "Express.js",
-            "RESTful APIs",
-            "PostgreSQL",
-            "JWT",
-            "Git",
-            "GitHub",
-          ],
-        },
+      DURATION: "June, 2026 - Aug, 2026",
+      POSITION: "Team Captain / Lead Intern",
+      DESCRIPTION: [
+        "Led a team of interns by coordinating tasks, providing technical guidance, and ensuring timely project delivery.",
+        "Contributed actively as a full-stack developer using React.js, Node.js, Express.js, and PostgreSQL.",
+      ],
+      TECH_STACK: [
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "RESTful APIs",
+        "PostgreSQL",
+        "JWT",
+        "Git",
+        "GitHub",
       ],
     },
-
+    UptoSkillsDeveloper: {
+      WEBSITE: "https://uptoskills.com/",
+      COMPANY: "UptoSkills",
+      LOCATION: "Remote",
+      DURATION: "May, 2026 - June, 2026",
+      POSITION: "Full Stack Developer Intern",
+      DESCRIPTION: [
+        "Developed responsive full-stack web applications using React.js, Node.js, and RESTful APIs.",
+        "Collaborated with the team to design database schemas, implement features, and improve overall performance.",
+      ],
+      TECH_STACK: [
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "RESTful APIs",
+        "PostgreSQL",
+        "JWT",
+        "Git",
+        "GitHub",
+      ],
+    },
     OpenSource: {
       WEBSITE:
         "https://github.com/search?q=is%3Apr+author%3ASricharan106&type=pullrequests",
       COMPANY: "GirlScript Summer of Code",
       LOCATION: "Remote",
       DURATION: "May, 2026 - Present",
-
-      ROLES: [
-        {
-          POSITION: "Open Source Contributor",
-          DURATION: "May, 2026 - Present",
-          DESCRIPTION: [
-            "Contributed to multiple open-source projects through GirlScript Summer of Code (GSSoC) 2026, successfully merging feature implementations, bug fixes, performance improvements, and accessibility enhancements.",
-            "Implemented multi-tenant OAuth2 authentication pipelines, encrypted credential storage, and multi-provider AI integrations supporting Gemini, OpenAI, and Perplexity.",
-            "Developed new product features, data-cleaning primitives, theme customization systems, and user interface improvements across React-based applications.",
-            "Improved application performance, accessibility, testing coverage, and developer experience by resolving real-world issues in production codebases.",
-            "Collaborated with project maintainers through GitHub issues, pull requests, code reviews, and technical discussions.",
-            "Worked with large-scale codebases and followed open-source best practices including documentation, security, refactoring, and testing.",
-          ],
-          TECH_STACK: [
-            "JavaScript",
-            "TypeScript",
-            "React.js",
-            "Node.js",
-            "Python",
-            "OAuth2",
-            "REST APIs",
-            "MongoDB",
-            "Git",
-            "GitHub",
-            "AI Integrations",
-          ],
-        },
+      POSITION: "Open Source Contributor",
+      DESCRIPTION: [
+        "Contributed to multiple React and Node.js projects by implementing multi-tenant OAuth2, AI integrations, and new features.",
+        "Resolved real-world production issues, improving accessibility, testing coverage, and overall application performance.",
+      ],
+      TECH_STACK: [
+        "JavaScript",
+        "TypeScript",
+        "React.js",
+        "Node.js",
+        "Python",
+        "OAuth2",
+        "REST APIs",
+        "MongoDB",
+        "Git",
+        "GitHub",
+        "AI Integrations",
       ],
     },
   },
@@ -131,11 +110,8 @@ export const DATA = {
     "Zoom-MERN-Clone": {
       LIVE_PREVIEW: "https://zoom-mern-clone-1.onrender.com",
       DESCRIPTION: [
-        "Developed a full-stack video conferencing application using the MERN stack (MongoDB, Express, React, Node.js).",
-        "Engineered real-time peer-to-peer communication by implementing WebRTC protocols for high-quality audio and video streaming.",
-        "Built a custom Socket.io signaling server to manage SDP offer/answer exchanges and ICE candidate forwarding.",
-        "Designed a responsive meeting interface with Material UI, featuring dynamic participant video tiles and media controls.",
-        // "Integrated MongoDB for persistent user management and meeting history, ensuring secure data handling via Express controllers.",
+        "Engineered a real-time video conferencing app using the MERN stack and WebRTC protocols.",
+        "Built a custom Socket.io signaling server and a responsive Material UI interface with dynamic media controls.",
       ],
       TECH_STACK: [
         "React.js",
@@ -147,25 +123,23 @@ export const DATA = {
         "Material UI",
         "Axios",
       ],
+      IMAGE: "/zoom.png",
+      GITHUB: "http://",
     },
     "Discord-bot- Monkey Bot": {
       LIVE_PREVIEW: "https://github.com/Sricharan106/Discord-bot",
       DESCRIPTION: [
-        "Engineered a multi-purpose Discord bot using Python and the Discord.py library, integrating AI assistance and server management.",
-        "Integrated Google Gemini AI via API to provide real-time, intelligent conversational responses and search capabilities for server members.",
-        "Developed a complex financial simulation system featuring banking (deposits/withdrawals), career progression, and investment vehicles like SIPs and FDs.",
-        "Implemented persistent data storage using JSON to track user balances, stock portfolios, and server-specific moderation logs.",
-        // "Built automated moderation tools, including offensive language filtering and administrative commands (kick/ban) for server security.",
-        // "Designed a simulated stock market engine with daily price refreshes, allowing users to trade virtual shares and manage portfolios.",
+        "Engineered a Python-based Discord bot featuring Google Gemini AI integrations for intelligent real-time conversational responses.",
+        "Developed a complex financial simulation system with banking, career progression, and persistent JSON data storage.",
       ],
       TECH_STACK: ["Python", "Discord.py"],
+      IMAGE: "/discord.jpg",
     },
     "Airbnb-MERN-Clone": {
       LIVE_PREVIEW: "https://airbnb-mern-clone-e0zx.onrender.com/",
       DESCRIPTION: [
-        "Architected a comprehensive booking ecosystem using the MERN stack, featuring a dynamic host dashboard for property management and a seamless guest reservation system.",
-        "Integrated secure JWT-based authentication and Cloudinary API for high-performance image hosting, ensuring scalable data handling and a polished user profile experience.",
-        "Developed a fully responsive frontend with React and Tailwind CSS, implementing complex filtering logic and Mapbox integration to mimic core industry-standard features.",
+        "Architected a comprehensive booking platform using MERN with JWT authentication and Cloudinary image hosting.",
+        "Developed a fully responsive frontend with Tailwind CSS and Mapbox integration to simulate core industry-standard features.",
       ],
       TECH_STACK: [
         "Node.js",
@@ -177,28 +151,16 @@ export const DATA = {
         "Render",
         "Tailwind CSS",
       ],
+      IMAGE: "/airbnb.png",
     },
   },
-  BLOGS: {
-    // Example
-    // "ORMs & ODMs: Choosing the Right Tool for Your Database Needs": {
-    //   DATE: "March 24, 2025",
-    //   TIME: "4",
-    //   LINK: "https://www.linkedin.com/pulse/orms-odms-choosing-right-tool-your-database-needs-utkarsh-singhal-dnshc/",
-    //   DESCRIPTION:
-    //     "Object-Relational Mappers (ORMs) and Object-Document Mappers (ODMs) play a crucial role in modern application development by abstracting database interactions and simplifying data management. Whether you're working with relational databases like PostgreSQL and MySQL or NoSQL databases like MongoDB, selecting the right ORM or ODM can significantly impact performance, scalability, and maintainability.",
-    // },
-  },
-
+  BLOGS: {},
   OTHER_PROJECTS: {
     "Zoom-MERN-Clone": {
       LIVE_PREVIEW: "https://zoom-mern-clone-1.onrender.com",
       DESCRIPTION: [
-        "Developed a full-stack video conferencing application using the MERN stack (MongoDB, Express, React, Node.js).",
-        "Engineered real-time peer-to-peer communication by implementing WebRTC protocols for high-quality audio and video streaming.",
-        "Built a custom Socket.io signaling server to manage SDP offer/answer exchanges and ICE candidate forwarding.",
-        "Designed a responsive meeting interface with Material UI, featuring dynamic participant video tiles and media controls.",
-        // "Integrated MongoDB for persistent user management and meeting history, ensuring secure data handling via Express controllers.",
+        "Engineered a real-time video conferencing app using the MERN stack and WebRTC protocols.",
+        "Built a custom Socket.io signaling server and a responsive Material UI interface with dynamic media controls.",
       ],
       TECH_STACK: [
         "React.js",
@@ -210,25 +172,22 @@ export const DATA = {
         "Material UI",
         "Axios",
       ],
+      IMAGE: "/zoom.png",
     },
     "Discord-bot- Monkey Bot": {
       LIVE_PREVIEW: "https://github.com/Sricharan106/Discord-bot",
       DESCRIPTION: [
-        "Engineered a multi-purpose Discord bot using Python and the Discord.py library, integrating AI assistance and server management.",
-        "Integrated Google Gemini AI via API to provide real-time, intelligent conversational responses and search capabilities for server members.",
-        "Developed a complex financial simulation system featuring banking (deposits/withdrawals), career progression, and investment vehicles like SIPs and FDs.",
-        "Implemented persistent data storage using JSON to track user balances, stock portfolios, and server-specific moderation logs.",
-        // "Built automated moderation tools, including offensive language filtering and administrative commands (kick/ban) for server security.",
-        // "Designed a simulated stock market engine with daily price refreshes, allowing users to trade virtual shares and manage portfolios.",
+        "Engineered a Python-based Discord bot featuring Google Gemini AI integrations for intelligent real-time conversational responses.",
+        "Developed a complex financial simulation system with banking, career progression, and persistent JSON data storage.",
       ],
       TECH_STACK: ["Python", "Discord.py"],
+      IMAGE: "/discord.jpg",
     },
     "Airbnb-MERN-Clone": {
       LIVE_PREVIEW: "https://airbnb-mern-clone-e0zx.onrender.com/",
       DESCRIPTION: [
-        "Architected a comprehensive booking ecosystem using the MERN stack, featuring a dynamic host dashboard for property management and a seamless guest reservation system.",
-        "Integrated secure JWT-based authentication and Cloudinary API for high-performance image hosting, ensuring scalable data handling and a polished user profile experience.",
-        "Developed a fully responsive frontend with React and Tailwind CSS, implementing complex filtering logic and Mapbox integration to mimic core industry-standard features.",
+        "Architected a comprehensive booking platform using MERN with JWT authentication and Cloudinary image hosting.",
+        "Developed a fully responsive frontend with Tailwind CSS and Mapbox integration to simulate core industry-standard features.",
       ],
       TECH_STACK: [
         "Node.js",
@@ -240,13 +199,13 @@ export const DATA = {
         "Render",
         "Tailwind CSS",
       ],
+      IMAGE: "/airbnb.png",
     },
     "Monkey Bytes": {
       LIVE_PREVIEW: "https://monkey-bytes.onrender.com",
       DESCRIPTION: [
-        "Developed a subscription-based newsletter engine using Flask and PostgreSQL, featuring dynamic category-specific news delivery (Tech, Anime, Sports) and a persistent user archive.",
-        "Implemented a robust passwordless authentication system using Flask-Mail to handle SMTP-based OTP verification, significantly enhancing user onboarding security.",
-        "Designed a personalized user dashboard with real-time preference management and a custom-themed UI that supports persistent light/dark mode toggling via JavaScript and CSS.",
+        "Developed a dynamic subscription-based newsletter engine using Flask, PostgreSQL, and passwordless OTP authentication.",
+        "Designed a personalized dashboard with real-time preference management and persistent light/dark mode toggling.",
       ],
       TECH_STACK: [
         "Python",
@@ -256,26 +215,27 @@ export const DATA = {
         "Flask-Mail",
         "Bootstrap",
       ],
+      IMAGE: "/monkey.jpg",
     },
     "flappy-duck": {
       LIVE_PREVIEW: "https://sricharan106.github.io/flappy-duck/",
       DESCRIPTION: [
-        "Developed a high-performance 2D arcade game using the HTML5 Canvas API and vanilla JavaScript, implementing a dedicated game loop for smooth",
-        "Engineered a precise collision detection system and gravity-based physics engine to manage character movement, obstacle generation, and real-time score tracking.",
-        "Designed a responsive game environment using CSS and JavaScript events, ensuring cross-device playability with optimized touch and keyboard input handling.",
+        "Built a high-performance 2D arcade game using HTML5 Canvas and vanilla JavaScript with a dedicated game loop.",
+        "Implemented precise collision detection and a gravity-based physics engine for character movement and scoring.",
       ],
       TECH_STACK: ["js", "CanvaJS", "HTML", "CSS"],
+      IMAGE: "/bird.png",
     },
     "Spotify Clone": {
       LIVE_PREVIEW: "https://sricharan106.github.io/Spofity-clone/",
       DESCRIPTION: [
-        "Architected a high-fidelity responsive UI clone of the Spotify web player using semantic HTML5 and advanced CSS techniques, including Flexbox and Grid for complex layouts.",
-        "Implemented core media playback functionality with vanilla JavaScript, enabling real-time play/pause controls, seek tracking, dynamic volume management, and synchronized lyric scrolling.",
+        "Architected a high-fidelity responsive clone of the Spotify web player using HTML5, Flexbox, and CSS Grid.",
+        "Implemented core media playback functionality with vanilla JavaScript, including seeking, volume control, and play/pause.",
       ],
       TECH_STACK: ["js", "HTML", "CSS"],
+      IMAGE: "/spotify.jpg",
     },
   },
-
   SKILLS: {
     Languages: [
       "JavaScript",
@@ -288,7 +248,6 @@ export const DATA = {
       "C",
     ],
     Frameworks: ["React", "Next.js", "Flask", "Django", "Express.js"],
-    // TemplateingEngine: ["EJS"],
     Libraries: ["Tailwind CSS", "Material UI", "Bootstrap"],
     "Database & Backend": ["PostgreSQL", "MySQL", "MongoDB", "JWT", "Auth.js"],
     "Cloud & Deployment": [
@@ -314,16 +273,6 @@ export const DATA = {
   },
   DSA: {
     PLATFORM: "https://leetcode.com/u/Sricharan106/",
-    TOPICS: [
-      "Arrays",
-      "Linked Lists",
-      "Stacks",
-      // "Queues",
-      // "Trees",
-      // "Graphs",
-      // "Dynamic Programming",
-      "Recursion & Backtracking",
-      // "Greedy Algorithms",
-    ],
+    TOPICS: ["Arrays", "Linked Lists", "Stacks", "Recursion & Backtracking"],
   },
 };
