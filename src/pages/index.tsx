@@ -3,15 +3,19 @@ import Hero from "../components/sections/hero";
 import { DATA } from "../app/data";
 import Experience from "../components/sections/experience";
 import Projects from "../components/sections/projects";
-import Blogs from "../components/sections/blog";
+// import Blogs from "../components/sections/blog";
 import OpenSource from "../components/sections/opensource";
 import Skills from "../components/sections/skills";
 import Contact from "../components/sections/contact";
 import Footer from "../components/sections/footer";
 import GridPattern from "../components/ui/grid-pattern";
 import Dsa from "../components/sections/dsa";
+import GitHubContributionGraph from "../components/ui/contribution-graph";
+import { getGitHubContributions } from "../lib/github-contribution";
 
 export default function Page() {
+  const contributions = getGitHubContributions();
+
   return (
     <>
       <GridPattern
@@ -24,7 +28,7 @@ export default function Page() {
       <NavBar isNeed={true} />
       <div className="flex flex-col items-center gap-12 p-8 w-">
         <Hero data={DATA.HEADER} />
-
+        <GitHubContributionGraph contributions={contributions} />
         <Experience data={DATA.EXPERIENCE} />
 
         <Projects data={DATA.PROJECTS} isNeed={true} />

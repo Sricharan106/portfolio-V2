@@ -1,0 +1,73 @@
+/* src/contribution.module.css */
+
+.graph {
+    /* contribution graph-specific styles */
+}
+
+.graph :global(.cross) {
+    pointer-events: none;
+    position: absolute;
+    z-index: 2;
+    width: 11px;
+    height: 11px;
+}
+
+.graph :global(.cross::before),
+.graph :global(.cross::after) {
+    content: "";
+    position: absolute;
+    background: hsl(var(--foreground) / 0.55);
+}
+
+.graph :global(.cross::before) {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    translate: 0 -50%;
+}
+
+.graph :global(.cross::after) {
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    translate: -50% 0;
+}
+
+.graph :global(.cross-tl) {
+    top: 0;
+    left: 0;
+    translate: -50% -50%;
+}
+
+.graph :global(.cross-tr) {
+    top: 0;
+    right: 0;
+    translate: 50% -50%;
+}
+
+.graph :global(.cross-bl) {
+    bottom: 0;
+    left: 0;
+    translate: -50% 50%;
+}
+
+.graph :global(.cross-br) {
+    bottom: 0;
+    right: 0;
+    translate: 50% 50%;
+}
+
+.graph :global(.stripe-band) {
+    position: relative;
+    height: 1.75rem;
+    background-image: repeating-linear-gradient(
+        315deg,
+        hsl(var(--line)) 0,
+        hsl(var(--line)) 1px,
+        transparent 0,
+        transparent 50%
+    );
+    background-size: 10px 10px;
+}

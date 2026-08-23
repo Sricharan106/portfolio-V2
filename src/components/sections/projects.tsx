@@ -51,16 +51,16 @@ export default function Projects({
       <ul className="flex flex-col gap-12 mt-4 font-normal text-primary/90 text-base">
         {Object.entries(data).map(([key, value]) => (
           <li key={key} className="cursor-target">
-            {value.IMAGE && (
-              <div className="mb-4 overflow-hidden rounded-lg">
-                <img
-                  src={value.IMAGE}
-                  alt={`${key} preview`}
-                  className="w-full max-h-80 object-cover border border-black/10 dark:border-white/10 rounded-lg transition-transform duration-300 hover:scale-[1.02]"
-                />
-              </div>
-            )}
             <div className="pl-4 border-black hover:border-[#666] dark:border-[#2f2f31] dark:hover:border-white border-l size-full transition-all duration-300">
+              {value.IMAGE && (
+                <div className="mb-4 overflow-hidden rounded-lg">
+                  <img
+                    src={value.IMAGE}
+                    alt={`${key} preview`}
+                    className="w-full max-h-80 object-cover border border-black/10 dark:border-white/10 rounded-lg transition-transform duration-300 hover:scale-[1.02]"
+                  />
+                </div>
+              )}
               <div className="flex justify-between items-start">
                 <div>
                   <p className="text-primary/90 text-lg">{key}</p>
